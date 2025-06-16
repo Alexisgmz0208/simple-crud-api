@@ -1,0 +1,28 @@
+{
+  "name": "simple-crud-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Alan Alexis Gomez Aguiñiga",
+  "description": "Practia CRUD con MongoDB y ExpressJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexisgmz0208/simple-crud-api/"
+  }
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
